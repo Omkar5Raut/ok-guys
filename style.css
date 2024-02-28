@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(//fonts.googleapis.com/css?family=Droid+Sans+Mono);
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+.sidebar{
+    background-color: rgb(206, 194, 194);
+    font-family: 'Open Sans',serif;
+    text-align: left;
+    
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 23px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    width: 90vw;
+    font-size: 12px;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+ /*   background-color: rgb(172, 40, 40); */
+    display: flex;
+    height: 58vh;
+    width: 80vw; 
+    margin: 144px auto; 
+    justify-content: space-around; 
+}
+.MoreAbout{
+    font-family: 'Open Sans',serif;
+    justify-content: space-around;
+    margin: 3px;
+    font-weight: bold;
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size:40px;
+	font-family: Droid Sans Mono; 
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+.About{
+    font-size: 20px;
+    margin: 3px;
+}
+ .buttons button{
+    padding: 5px;
+    margin: 6px;
+    margin-top: 15px;
+    border-radius: 50px;
+    background-color: rgb(107, 107, 221);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+ 
+ }
+ .buttons button:hover {
+    background-color: white;
+    color: rgb(107, 107, 221);   
+ }
+ 
+.devpic img{
+    height: 58vh; 
+    justify-content: space-around;   
+}
+ .Contactform{
+    padding-top: 144px;
+    padding: 44px;   
+}
+ .Contactform h1{
+    font-family: Droid Sans Mono; 
+    padding: 10px 0;
+}
+ .Contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    
+ }
+ .Contactform form div input {
+    width: 40vh;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 1px;
+ }
+ #email-help {
+    font-size: 11px;
+    color: blue;
+    margin: 0 4px;
+ }
+ #form-check {
+    flex-direction: row;
+    width: fit-content;
+    
+ }
+ #form-check input {
+    width: 30vh;
+    margin: 3px;
+    display: flex;
+
+ }
+ .btn {
+    width: 12vh;
+    padding-top: 2px;
+    padding: 5px;
+    margin: 0px;
+}
+.h1 { 
+    padding: 10px;
+
+}
+.p {
+    margin: 5px;
+
+}
+ 
+.h2{
+    padding: 10px;
+}
+.Skillscontainer{
+    margin: 5px; 
+       
+}
+.SkillItem{
+    display: flex;
+    
+}
+.Skill{
+    width: 263px;
+    height: 6px;
+    display: flex;
+    background-color: red;
+    border: solid black;
+}
+
+.sidebarGo{
+    transform: translate(-220px, 0px);
+    position: absolute;
+}
+.hamberger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    height: 23px;
+    margin-left: 144px;
+    background-color: rgb(206, 194, 194);
+
+}
+ /*@media (max-width:px) {
+    *{
+        background-color: rgb(206, 194, 194)
+
+    }*/
+    
+        /*.sidebar{
+            transform: translate(-220px,0px);
+            position: absolute;
+        }*/
+    
